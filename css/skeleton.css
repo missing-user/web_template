@@ -196,7 +196,7 @@ input[type="button"]:hover,
 button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
-input[type="button"]:focus {
+input[type="button"]:focus{
   color: #333;
   border-color: #888;
   outline: 0; }
@@ -222,6 +222,32 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+/* input range
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="range"]  {
+  -webkit-appearance: none;
+  display: inline-block;
+  background-color: #bbb;
+  height: 1px;
+  margin: 0 auto;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #333;
+  width: 4px;
+  height: 19px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  background-color: #888;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

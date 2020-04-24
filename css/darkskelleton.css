@@ -64,6 +64,17 @@ input[type="button"].button-primary:focus {
   border-color: #f57900;
 }
 
+/* input range */
+input[type="range"]  {
+  background-color: #babdb6;
+}
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #d3d7cf;
+}
+input[type=range]:focus {
+  background-color: #eeeeec;
+}
+
 /* Forms */
 input[type="email"],
 input[type="number"],
