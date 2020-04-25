@@ -5,12 +5,10 @@ body {
   color: #d3d7cf;
   background: #2e3436;
 }
-
 /* Links */
 a {
   color: #729fcf;
 }
-
 a:hover {
   color: #eeeeec;
 }
